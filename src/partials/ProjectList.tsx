@@ -10,13 +10,13 @@ const ProjectList = () => (
   <Section
     title={
       <>
-        Recent <GradientText>Projects</GradientText>
+        Common <GradientText>Topics</GradientText>
       </>
     }
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Project 1"
+        name="Uyghurs & Re-Education Camps"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         bibendum. Nunc non posuere consectetur, justo erat semper enim, non
         hendrerit dui odio id enim."
@@ -27,10 +27,10 @@ const ProjectList = () => (
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.FUCHSIA}>Uyghurs</Tags>
+            <Tags color={ColorTags.LIME}>Human-Rights</Tags>
+            <Tags color={ColorTags.SKY}>counter-terrorism</Tags>
+            <Tags color={ColorTags.ROSE}></Tags>
           </>
         }
       />
